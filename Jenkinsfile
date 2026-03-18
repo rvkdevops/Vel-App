@@ -1,8 +1,5 @@
 pipeline {
-    agent {
-        label "built-in"
-        customWorkspace "/mnt/jfiletest"
-    }
+    agent any
 
     stages {
         stage("one") {
